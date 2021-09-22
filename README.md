@@ -22,22 +22,21 @@ Implement landing page according to [Figma design](https://www.figma.com/file/aH
 1. Implement footer.
 
 
-## HR important moments
-- Скорость анимаций на всем лендинге одинаковая (например увеличение при наведении или выезд блоков при скроле)
-- Placeholder в формах подсказывают что именно ввести, а если стоит валидация формы, то понятно в каком формате вводить номер телефона
-- Убедитесь, что с мобильных выглядит все аккуратно и без горизонтальной прокрутки
-- Добавьте favicon
-- Добавьте мягкий скролл при клике на меню до соответствующих блоков страницы
-- Все пункты в меню должны иметь hover-стили и вести на разные секции в лендинге
-- Логотип должен увеличиваться при ховере
-- Кнопка “contact us” должна вести на секцию “contact us”
-- Все кнопки “get help now” должны менять цвет при ховере
-- Когда открыт первый блок с заглавной страницей, не должны обрезаться кнопки "who i am", "what do i do". Их лучше расположить чуть выше, чтобы можно было сразу увидеть
-С- тоит все шрифты сделать четко по макету (дизайнеры специально подбирали шрифты так, чтобы те между собой сочетались), свои шрифты лучше не дописывать)
-- Для пользователя удобно, когда при клике на Address, он открывается в новой вкладке в гугл-картах. Это стоит доделать
-- Кнопка Blog в верхнем меню должна быть кликабельной и вести на страницу "you should also know" (это не совсем блог, но логически максимально приближеный к нему блок, который есть в лендинге)
-- Чтобы как-то оживить лендинг можно менять цвет цветных блоков при ховере
+## Checklist for preparing a portfolio project for HR review
 
+- The speed of animations is the same throughout the landing page (for example, increasing when hovering or moving blocks when scrolling)
+- Placeholders in the forms suggest what to enter, and if there is a validation of the form, then it is clear in what format to enter the phone number
+- Make sure everything looks neat on mobile and without horizontal scrolling
+- Add favicon
+- Add a smooth scroll for the whole page
+- When you try to send the form there is no 405 error and the form is automatically cleared after submit and is scrolled to the top of the page or the page is reloaded
+- The logo should become bigger when hovering
+- The "contact us" button should lead to the "contact us" section
+- All “get help now” buttons should change color when hovering
+- When the first block with the title page is opened, the buttons "who I am", "what do I do" should not be cut off. It is better to place them a little higher so that you can immediately see them
+- Use all the fonts specified in the Figma design and don’t add your fonts (the designers specially selected these fonts so that they fit together)
+- The Blog button in the top menu should be clickable and lead to the page "you should also know"
+- To somehow revive the landing page, you can change the color of the colored blocks on the hover
 
 ## Github flow
 1. **Fork** the repo.
