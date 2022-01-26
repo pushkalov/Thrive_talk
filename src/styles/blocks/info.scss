@@ -1,0 +1,97 @@
+.info {
+  background-color: #fff;
+  max-width: 1560px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  &__photo {
+    background-image: url(../images/autumn-goodman-242825.svg);
+    width: 570px;
+    height: 380px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include mobile {
+      display: none;
+    }
+
+    @include miniTablet {
+      display: none;
+    }
+
+    @include Tablet {
+      display: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+    position: relative;
+    height: 380px;
+    align-items: center;
+
+    @include mobile {
+      height: 500px;
+    }
+
+    @include Tablet {
+      position: relative;
+      right: 200px;
+    }
+
+    &--container {
+      display: flex;
+      position: absolute;
+      right: 0;
+      margin: 0 auto;
+      width: 600px;
+
+      @include mobile {
+        flex-direction: column;
+        width: 250px;
+      }
+
+      &-column {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-right: 20px;
+
+        @include mobile {
+          margin-bottom: 30px;
+        }
+
+        &__title {
+          font-size: 14px;
+          line-height: 11px;
+          letter-spacing: -0.01em;
+          color: #22356f;
+          margin-bottom: 60px;
+
+          @include mobile {
+            margin-bottom: 10px;
+          }
+        }
+
+        &__text {
+          font-size: 14px;
+          line-height: 23px;
+          letter-spacing: -0.01em;
+          color: rgba(34, 53, 111, 0.5);
+          text-decoration: none;
+        }
+
+        &__email {
+          font-size: 14px;
+          line-height: 23px;
+          letter-spacing: -0.01em;
+          color: blue;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
