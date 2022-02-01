@@ -16,10 +16,21 @@
     &--photo {
       background-image: url(../images/linkedin-sales-navigator-402831.svg);
       background-repeat: no-repeat;
-      width: 480px;
+      width: 100%;
       height: 800px;
       background-size: contain;
       max-width: 100%;
+
+      @include mobile {
+        background-size: 100% auto;
+      }
+
+      @include miniTablet {
+        width: 100%;
+        background-size: 100% auto;
+        height: 1200px;
+        background-position: 0 50%;
+      }
     }
 
     &--description {
@@ -47,6 +58,8 @@
       @include Tablet {
         max-width: 400px;
         min-width: 300px;
+        margin-left: auto;
+        margin-right: 50px;
       }
 
       &-title {
